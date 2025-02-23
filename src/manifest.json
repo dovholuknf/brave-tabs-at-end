@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tabs at End 2025",
+  "version": "1.0",
+  "description": "Forces new tabs to open at the end instead of after the current tab.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["*://*/*"]
+}
